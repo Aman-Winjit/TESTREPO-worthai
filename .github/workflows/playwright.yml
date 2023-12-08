@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '18.x'
 
-      - name: Install dependencies and browsers
+      - name: Install dependencies
         run: npm install
 
       - name: Install Playwright Browsers
